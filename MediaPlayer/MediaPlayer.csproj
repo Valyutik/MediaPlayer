@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <LangVersion>default</LangVersion>
+        <ApplicationIcon>Player.ico</ApplicationIcon>
+        <Authors>Valyutik</Authors>
+        <Company>ValyutikGames</Company>
+        <TargetFramework>net7.0-windows</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MaterialDesignThemes" Version="4.8.0-ci169" />
+        <PackageReference Include="TagLibSharp" Version="2.3.0" />
+        <PackageReference Include="YoutubeExplode" Version="6.2.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Page Update="ClientMainWindow.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <XamlRuntime>Wpf</XamlRuntime>
+            <SubType>Designer</SubType>
+        </Page>
+    </ItemGroup>
+
+</Project>

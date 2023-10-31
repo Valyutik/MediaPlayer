@@ -1,0 +1,14 @@
+﻿<Window x:Class="MediaPlayer.EnterUrlWindow"
+        x:Name="EnterUrlWindowPlayer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Введите URL видео Youtube" Height="100" Width="400">
+    <Grid>
+        <TextBox x:Name="MainTextBox" HorizontalAlignment="Left" materialDesign:HintAssist.Hint="Введите URL видео Youtube" VerticalAlignment="Center" Width="230" FontSize="18" Margin="10,0,0,0"></TextBox>
+        <Button HorizontalAlignment="Right" IsDefault="True" VerticalAlignment="Center" Content="Открыть" FontSize="18" Margin="0,0,10,0" Click="AddButtonClick"></Button>
+    </Grid>
+</Window>
