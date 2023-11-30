@@ -20,6 +20,9 @@ bld/
 # Roslyn cache directories
 *.ide/
 
+# JetBrains Rider cache directory
+.idea/
+
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
